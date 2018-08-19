@@ -140,6 +140,7 @@ input:not([type="checkbox"]) {
     display: flex;
     justify-content: space-between; }
   .form-field a {
+    margin-right: -15%;
     padding-top: 9px;
     color: #000000; }
 
