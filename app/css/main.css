@@ -30,3 +30,45 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.popup {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  background: #ffffff;
+  border: 1px solid #cecece;
+  border-top: 2px solid #e62b1e;
+  max-width: 840px;
+  -webkit-box-shadow: 0 3px 2px -2px gray;
+  box-shadow: 0 3px 2px -2px gray; }
+  .popup__header {
+    position: relative; }
+  .popup__close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    border: none;
+    background: #ffffff;
+    cursor: pointer; }
+    .popup__close:before, .popup__close:after {
+      position: absolute;
+      top: 0;
+      content: " ";
+      height: 15px;
+      width: 2px;
+      background-color: #c2c2c2; }
+    .popup__close:before {
+      transform: rotate(45deg); }
+    .popup__close:after {
+      transform: rotate(-45deg); }
+  .popup__header--text {
+    text-align: center;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #333333;
+    padding: 33px 0 35px 0; }
