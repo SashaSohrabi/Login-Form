@@ -78,6 +78,45 @@ table {
     align-items: center;
     padding: 40px 60px; }
 
+.button {
+  width: 103px;
+  height: 40px;
+  background: #252525;
+  color: #ffffff;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 3px;
+  border: none; }
+  .button:hover {
+    background: #666666;
+    cursor: pointer; }
+
+.button--fb,
+.button--gp {
+  width: 95%;
+  margin: 10px auto;
+  line-height: 14px;
+  position: relative; }
+
+.button--fb {
+  background: #3e5b96;
+  margin-top: 0; }
+
+.button--gp {
+  background: #dd5342; }
+
+.img--facebook,
+.img--gp {
+  position: absolute;
+  content: '';
+  top: 8px;
+  left: 14px;
+  text-align: right; }
+
+.btn-text {
+  padding-left: 30px; }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #dbe2e8; }
@@ -85,7 +124,8 @@ body {
 .col-1-of-2 {
   width: 50%;
   box-sizing: border-box;
-  height: 249px; }
+  height: 249px;
+  padding-right: 40px; }
 
 .bordered {
   border-right: 1px solid rgba(0, 0, 0, 0.149); }
