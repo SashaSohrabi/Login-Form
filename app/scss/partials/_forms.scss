@@ -1,0 +1,31 @@
+input:not([type="checkbox"]) {
+  width: 115%;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 4px;
+}
+
+.form-field {
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #333333;
+  padding-left: 60px;
+  margin-bottom: 21px;
+  @media (max-width: 768px) {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & a {
+    padding-top: 9px;
+    color: #000000;
+  }
+}
